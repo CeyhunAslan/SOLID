@@ -1,0 +1,6 @@
+﻿
+
+
+Yangi You Aren’t Gonna Need It!  ( Buna ihtiyacım yok!)
+
+Yangi prensibine göre, “o an” ihtiyacımız olmayan kodları sisteme dahil etmemeliyiz, ileride eklenebilecek özellikler hakkında öngürüde bulunup ek geliştirmeler yapmamalıyız.Kısaca ihtiyacım olmayan kodları şimdi yaratıp ilerde kullanırım gibi bir kodlama yapılmamalıdır.

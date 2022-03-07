@@ -1,0 +1,13 @@
+﻿
+
+
+
+ DIP  Dependency Inversion Principle(Bağımlılığın ters çevrilmesi prensibi - İlkesi)
+
+Bu prensibe göre de bir sınıf diğer bir sınıfa doğrudan bağımlı olmamalıdır. Aralarındaki bağ soyut bir kavram üzerinden sağlanmalıdır. Bu soyut kavram interface de olabilir abstract class da olabilir.
+
+ ilkenin ana fikri, alt yada üst seviyeli sınıfların seviyesine bakılmaksızın soyutlamalara bağlı olması gerektiğini söylemektedir. Bu ilkede ki temel amaç sınıflar arasındaki bağımlılığın kırmak ve gevşek bağlı sınıflar (lose couple) elde etmektir. Çünkü tight couple sınıflar projelerimizin extend edilmesini yada ölçeklendirmemiz için önümüzdeki engellerden biridir.
+
+ Somut bir örnek vermek gerekirse, kumunda ile pil arasındaki ilişkiyi düşünelim. Uzaktan kumandanın çalışması içi bir pile ihtiyacı vardır. Ancak pil markasının kumandanın çalışması ile bir alakası yoktur. Yani istdeğimiz herhangi bir pil markasını tercih edebilie ve kullanabiliirz. Burada kumanda ile pil markası arasında loose couple bir ilişki vardır.
+
+ Jr developer'Lar genellikle DIP ile DI birbirlerine karıştırılar. DIP ve IoC bir üst seviyeli prensiptir. DI (Dependecy InJection) ise bir desendir. Yani DIP ve IoC prensiplerini uygulama aracıdır.

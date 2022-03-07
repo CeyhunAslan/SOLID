@@ -1,0 +1,14 @@
+﻿
+
+
+
+SRP Single Responsibility Principle - (Tek Sorumluluk İlkesi)
+
+Her method ve class'ın tek sorumluluğu olur.buradaki tek sorumluluktan kastımız iş olarak iş olarak düşünülmektedir.Bu method bize şunu söylemektedir.Bir method'un üzerinde birden fazla iş varsa , üzerine yüklediğimiz bu işlerde değişiklik gerektiğinde var olan methodumuzunda değişmesi durumunda kalacağız.Yani bir methodu yada sınıfı değiştirmek için bir sebebin olsun yani üzerinde sadece bir iş olması istenilmektedir.
+
+
+Gerçekte bu ilkeye tam anlamıyla uymak mümkün değildir. Her bir iş için ayrı sınıflar açmak yerine bir varlık ile ilgili ayrı ayrı işleri karşılayacak methodlar yazarak bunu temin etmeye çalışırız. Örneğin Category varlığı için bir create işelminde bir değişiklik olduğunda sadece Create methodununda değişiklik yapmış olarak bir anlamda bu ilkeye uymuş oluruz.
+
+
+
+Bu ilkenin lab çalışmasında BadExample klasörü altında ilkeye uyulmayan haliyle işlemleri yapacağız. GoodExample klaörü altında bu prensibe uyan halini göreceksiniz. 

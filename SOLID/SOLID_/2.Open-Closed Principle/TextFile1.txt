@@ -1,0 +1,14 @@
+﻿
+
+
+OCP Open & Close Principle (Açık/kapalılık İlkesi)
+
+Bu ilkede, uygulama içerisinde bulunan yani var olan sınıflarımızın method yada modüllerimizin değişime kapalı ama gelişime açık olması istenmektedir.
+
+Bu örnekte bir restorant uygulamamız olacak restorant'ın hali hazırda satığı yemek türleri bulunmaktadır.Restorant yeni seçenek sunup bu seçeneği satmak istediğimde hali hazırda yazılı kodları etkilemeden bu yapmamız gerekmektedir.Satıcı "turkey" satmak istediğin de bu yeni değişikliği var olan en az değişiklile yerine getirebilmeliyim 
+
+
+BadExample çalışmasında yemek türlerini bir Food enum'ı içerisinde tutacağız. MeatShop.cs sınıfında ise masalarda içilen kahve türlerine göre masa hesap tutarı yapılacaktır. Lakin yeni bir et türü satılmaya karar verildiğinde kahve türlerini enum içerisinde tutuğumdan burada bir değişiklik yapmaya mecbur kalacağım. Ayrıca yeni satılacak bu et türü yüzünden masa tutarı hesaplama işimde de değişiklik yapmam gerekecektir. Böylellikle yeni gelen et türü yüzünden var olan 2 yapımda da değişklik yaptığımdan bu prensibe ters düşeceğim.
+
+GoodExample'da ise  GoodMeatShop.cs clasımı  soyutlamalara bağlayacağım böylelikle kural koyarak sınıfı değişikliğe lapatmış olacağım.Ayrıca her bir et için ayrı ayrı sınıf açacağım.Bu kapsamda yeni bir tür et satışı olduğunda var olan sınıflarımda ve methodlarımda bir değişiklik yapmadan hareket edebileceğim
+

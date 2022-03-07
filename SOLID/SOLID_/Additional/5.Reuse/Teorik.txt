@@ -1,0 +1,7 @@
+﻿
+
+
+
+Reuse(Release Equivalence Principle)
+
+Sistemde kullanılan paketler/namespace’ler arasındaki bağımlılıkları yönetmek “tekrar kullanılabilir” yapılar kurmakla mümkün olur.

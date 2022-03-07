@@ -1,0 +1,9 @@
+﻿
+
+ISP Interface Segregation Principle (Arayüz ayrımı prensibi - İlkesi)
+
+Bu ilke, ata sınıfları oluşturan interface'lerin doğru şekilde dizayn edelilerek alt sınıflara kalıtım verilmesi gerektiğini söylememktedir. Bu işlemi doğru şekilde yerine getirmek için alt sınıfların ihtiyaçları baz alınarak yani bir anlamda alt sınıfların kazanacakları ortak özelliklere göre interface'ler oluşturulması gerekmketedir. 
+
+
+
+Burada yapacağımız örnek ise çok daha basit olacak. Bir tane "IBird" isimli interface tanımlayacağız. Bu interface'de Fly() , Swim() ve Walk() adında üç tane yeteneğimiz olacak. Alt sınflarda ise Eagle.cs , Duck.cs ve Chicken.cs sınıflarımızı olarak.Eagle.cs yani kartallar  hem yürüyebilir hemde uçabilir olduklarından gereksiz yetenek kazanmayacaktır. Lakin Chicken yani tavuklar sadece yürüyebirilirler. Bu yüzden Fly() yeteneği tavuk için implement edilmemesi gereken bir yetenek olduğundan bu prensibe ters düşmüş oluyoruz.Ayrıca ördekler yüzebilirken kartalların yüzme yeteneğinde mahrum olmasıbu örnekte prensibe aykırıdır.

@@ -1,0 +1,8 @@
+C:\Users\akats\Desktop\SOLID\SOLID_\bin\Debug\SOLID_.exe.config
+C:\Users\akats\Desktop\SOLID\SOLID_\bin\Debug\SOLID_.exe
+C:\Users\akats\Desktop\SOLID\SOLID_\bin\Debug\SOLID_.pdb
+C:\Users\akats\Desktop\SOLID\SOLID_\obj\Debug\SOLID.csproj.AssemblyReference.cache
+C:\Users\akats\Desktop\SOLID\SOLID_\obj\Debug\SOLID.csproj.SuggestedBindingRedirects.cache
+C:\Users\akats\Desktop\SOLID\SOLID_\obj\Debug\SOLID.csproj.CoreCompileInputs.cache
+C:\Users\akats\Desktop\SOLID\SOLID_\obj\Debug\SOLID_.exe
+C:\Users\akats\Desktop\SOLID\SOLID_\obj\Debug\SOLID_.pdb

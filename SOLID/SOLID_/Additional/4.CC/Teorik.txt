@@ -1,0 +1,8 @@
+﻿
+
+
+
+ CC Common Closure(Ortak Kapama Prensibi)
+
+
+ Single Responsibility’nin namespace’ler için uyarlanmış halidir. Aynı sebepten değişebilecek sınıflar aynı namespace altında bulunmalıdır. Böylelikle sistemde oluşabilecek değişikliklerin tüm sistemi etkilemesinin önüne geçilmesi amaçlanır.

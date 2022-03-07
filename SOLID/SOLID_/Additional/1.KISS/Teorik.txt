@@ -1,0 +1,7 @@
+﻿
+
+Kiss Keep it Simple Stupid  (Basit Aptal Tutmak)
+
+Bir problemin birçok durumda birden fazla çözümü vardır ve biz yazılımcılar kendi bilgi/birikimlerimizi en iyi yansıtan, en karmaşık kod yapısını kullanmaya eğilimli olabiliyoruz. Kiss prensibine göre çözümlerimiz mümkün olduğunca sade/anlaşılır olmalı. En basit ve en optimum çözüm yöntemini seçerek uygulama geliştirmeliyiz.
+
+

@@ -1,0 +1,10 @@
+﻿
+
+
+Dry  Don’t Repeat Yourself   (Kendinizi Tekrar Etmeyin)
+
+Proje içerisinde aynı kodu tekrar tekrar yazıyorsanız dry prensibine uymuyorsunuz demektir. Tekrarlı kod yapısında değişiklik olması, kullandığınız her yerde tek tek değiştirmenizi gerektirebilir ve ayrıca sistemi gereksiz yere karmaşık hale getirecektir. Böyle bir durumda, tekrarlı kodları merkezileştirecek bir çözüm üretmemiz gerekmektedir.
+
+Diyelimki farklı arayüzlerde kullanıcının yaşını hesaplama lazım 
+
+BadExample 'da bu mrneği her class'ım için tek tek yazacağım bir çözüm sunucam , GoodExample'da ise bir method ile hesaplamamı yapıcam sonra bu methodu istedğim yerde çağırarak kod tekrarına engellemiş olucam

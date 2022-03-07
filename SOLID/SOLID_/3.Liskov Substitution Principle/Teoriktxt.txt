@@ -1,0 +1,9 @@
+﻿
+ 
+
+ LSP  Liskov Subsition Principle (Liskov'un Yerine Geçme İlkesi-Prensibi)
+
+ Bu ilke ata sınıflar ile alt sınıfların yer değişiktirebilir olması gerektiğini söylemektedir.
+
+
+ örnek ise dikdörtgen sınıfından kalıtım alan kare sınıfıdır. Dikdörtgen sınıfının alan hesaplama yeteneği olduğunu düşünelim. Kalıtım vasıtasıyla Kare sınıfıda bu yeteneği almaktadır. Lakin dikdörtgenin kare hesaplama yeteneği kare sınıfı için fit değildir. Karenin alan hesaplaması ile dikdörtgenin alan hesaplamaları bir birinden farklıdır. Farklı olduğu için yetenekler yer değişiştirebilir durumda değildir ve prensibe ters düşülmüştür.
